@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.tiendaalbum"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.tiendaalbum"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.sqlite) // Agrega esta línea
+    implementation(libs.glide) // Añadido Glide
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

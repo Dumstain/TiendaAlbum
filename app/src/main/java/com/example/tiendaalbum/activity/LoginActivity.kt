@@ -35,7 +35,7 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show()
                     // Navegar a la pantalla principal de la aplicación
                     val intent = Intent(this, MainActivity::class.java)
-                    intent.putExtra("USERNAME", username)
+                    intent.putExtra("USERNAME", username) // Pasar el USERNAME
                     startActivity(intent)
                     finish()
                 } else {

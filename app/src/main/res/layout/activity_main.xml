@@ -12,9 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¡Bienvenido!"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/btnComprarAlbum"
@@ -27,12 +27,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Comprar Sobre de Stickers"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/btnVerCatalogo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ver Catálogo de Stickers"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/design_default_color_error" /> <!-- Color rojo para resaltar -->
 </LinearLayout>

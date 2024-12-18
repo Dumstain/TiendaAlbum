@@ -9,13 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TiendaAlbum">
 
-        <!-- Otras actividades -->
+        <!-- Declarar todas las actividades -->
         <activity android:name=".activity.CatalogoStickersActivity" />
         <activity android:name=".activity.ComprarSobreActivity" />
         <activity android:name=".activity.ComprarAlbumActivity" />
         <activity android:name=".activity.RegisterActivity" />
-
-        <!-- Configurar LoginActivity como la actividad de inicio -->
         <activity android:name=".activity.LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -24,8 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Declarar MainActivity sin el intent-filter de lanzamiento -->
         <activity android:name=".activity.MainActivity" />
 
     </application>
